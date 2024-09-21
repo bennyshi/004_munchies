@@ -1,6 +1,6 @@
 body {
     margin: 0; /* Remove default margin */
-    background: rgb(55, 80, 180); /* Set the body background color */
+    background: rgb(180, 57, 55); /* Set the body background color */
 }
 
 .container{ 
@@ -24,6 +24,7 @@ body {
     color: rgb(249, 158, 30);
     display: none;
     margin-bottom: 20px;
+    display: none;
 }
 
 #items{
@@ -42,4 +43,12 @@ body {
 
 .btn:active {
     opacity: 0.7; /* Adjust the opacity on touch */
+}
+
+.card-img-top { 
+    transition: filter 0.3s ease; 
+}
+
+.card-img-top:hover {
+    filter: brightness(0.6);
 }
